@@ -1,0 +1,5 @@
+# ID      Priority  Dependencies
+compile   10
+lint      20
+test      30        compile
+package   0         test lint
